@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.carte {
+  width: 480px;
+  height: 280px;
+  background: radial-gradient(#00ccff 0%, #000066 99%);
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.header {
+  padding: 5px 0px 0px 220px;
+  color: white;
+}
+
+.header p {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0px;
+}
+.main {
+  display: flex;
+  padding: 5px;
+}
+.right {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 5px;
+}
+.left {
+  width: 400px;
+
+  padding: 0 0 0 30px;
+}
+.puce {
+  height: 60px;
+  width: 75px;
+}
+.serie {
+  background-color: rgba(245, 223, 22, 0.288);
+  color: rgba(240, 218, 24, 0.925);
+  font-size: 25px;
+  font-weight: bold;
+  width: 260px;
+  margin: 5px 0 0 5px;
+}
+.numb {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  width: 260px;
+  margin: 0px 0 0 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.span {
+  display: flex;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.month {
+  margin: 0;
+  font-size: 10px;
+  color: white;
+  margin-top: 5px;
+  padding-left: 195px;
+}
+.visa {
+  height: 110px;
+  width: 80px;
+}
